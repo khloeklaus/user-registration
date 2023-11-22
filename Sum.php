@@ -12,7 +12,6 @@
     else
     echo("Backdoor");
     define ("MINISIZE",50);
-    echo MINISIZE;
-    echo constant("MINISIZE");
+    
     
 ?>

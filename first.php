@@ -6,12 +6,18 @@
     $many_2 = 2.1112;
     $few=$many+$many_2;
     print("$many+$many_2=$few<br>")
+    
+    $name = "John";
+    $age = 25;
+    echo "Name: $name<br>";
+    echo "Age: $age years old";
 ?>
 <?php
     define ("MINISIZE",50);
     echo MINISIZE;
     echo constant("MINISIZE");
 ?>
+
 
 
 
