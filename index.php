@@ -21,8 +21,6 @@ footer {
     <div class="container">
         <div class="row">
           <?php include 'includes/nav.php'; ?>
-
-
         </div>
         <!-- This is the conent row -->
         <div class="row">
