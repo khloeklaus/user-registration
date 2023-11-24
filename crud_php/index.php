@@ -9,7 +9,7 @@ require_once "connect.php";?>
                     <th>id</th>
                     <th>First Name</th>
                     <th>Last Name</th>
-                    <th>Address</th>
+                    <th>Addres</th>
                     <th>Telephone</th>
                     <th>Update</th>
                     <th>Delete</th>
@@ -34,7 +34,7 @@ require_once "connect.php";?>
                     <td><?php echo $row['id'];?></td>
                     <td><?php echo $row['first_name'];?></td>
                     <td><?php echo $row['second_name'];?></td>
-                    <td><?php echo $row['address'];?></td>
+                    <td><?php echo $row['addres'];?></td>
                     <td><?php echo $row['telephone'];?></td>
                     <td><a href="Adduser.php" class="btn btn-success"Update</a></td>
                     <td><a href="Userlist.php" class="btn btn-danger"Delete</a></td>
