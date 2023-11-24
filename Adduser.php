@@ -16,7 +16,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <form action="" method="post">
+        <form action="includes/process_registration.php" method="post">
           <div class="form-group">
             <input type="text" name="first_name"placeholder="First Name" class="form control">
           </div>
@@ -30,7 +30,7 @@
           </div> 
 
           <div class="form-group">
-            <input type="text"name="address"placeholder="address" class="form control">
+            <input type="text"name="addres"placeholder="Addres" class="form control">
           </div> 
 
           <div class="form-group">

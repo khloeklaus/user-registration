@@ -19,11 +19,11 @@ footer {
  
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row"style="bgcolor:pink;">
           <?php include 'includes/nav.php'; ?>
         </div>
         <!-- This is the conent row -->
-        <div class="row">
+        <div class="row"style="bg-color:blue;">
           <div class="col-lg-3">
             <p><i><u>I know that your wrong for me </u></i>so am gonna which we never meet on the<br>day i leave so i bought you down to your kneew<br>cause they that <mark><strong>misery loves company</strong></mark></p>
             <p>And its your fault that i ruin everything and its not your fault that i can't be want you need</p>
