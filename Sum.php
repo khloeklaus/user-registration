@@ -17,9 +17,4 @@
     $string1="Hellow Aisha";
     $string2="123";
     echo$string1."".$string2;
-    
-
-
-
-    
 ?>

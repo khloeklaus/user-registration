@@ -20,8 +20,12 @@
         <li>User registration youtube.com</li>
         <li>User registration twitter.com</li>
         <li>User registration instagram.com</li>
-        <li>Uset</li>
-
+        <li>User registration facebook.com</li>
+    </ol>
+    <p><b>Our direct tel_phone numbers are;</b></p>
+    <ol>
+        <li>Airtel-0700978567</li>
+        <li>MTN-0778888796</li>
     </ol>
 
     
