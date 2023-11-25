@@ -20,11 +20,11 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="list_user.php">List of users</a>
+            <a class="nav-link" href="display_users.php">List of users</a>
             </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="process_update.php">Update</a>
+            <a class="nav-link" href="update.php">Update</a>
             </li>
 
             <li class="nav-item">
@@ -34,11 +34,6 @@
             <li class="nav-item">
             <a class="nav-link" href="Projects.php">Projects</a>
             </li>
-
-            <li class="nav-item">
-            <a class="nav-link" href="Delete.php">Delete user</a>
-            </li>
-
            
         </ul>
         <form class="d-flex" role="search">

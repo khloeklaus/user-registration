@@ -19,6 +19,7 @@
                     <th>Email</th>
                     <th>Addes</th>
                     <th>Telephone</th>
+                    <th>Action</th>
                 </tr>
             </thead>
         <tbody>  
@@ -37,8 +38,11 @@
                             echo "<td>" . $row['addres'] . "</td>";
                             echo "<td>" . $row['telephone'] . "</td>";
                             echo "<td>";
-                            echo '<a class="btn btn-success" href="process_update.php?id=' . $row['id'] . '">Update</a>';
-                            "</td>";
+                                echo '<a class="btn btn-success" href="update.php?id=' . $row['id'] . '">Update</a>';
+                            
+                                echo '<a href="includes/process_delete.php?id=' . $row['id'] . '">Delete</a>';
+                            echo "</td>";
+                            
                         echo "</tr>";
 
                     
