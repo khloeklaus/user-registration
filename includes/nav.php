@@ -20,6 +20,14 @@
             </li>
 
             <li class="nav-item">
+            <a class="nav-link" href="list_user.php">List of users</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="process_update.php">Update</a>
+            </li>
+
+            <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>
             </li>
 
@@ -30,6 +38,8 @@
             <li class="nav-item">
             <a class="nav-link" href="Delete.php">Delete user</a>
             </li>
+
+           
         </ul>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
