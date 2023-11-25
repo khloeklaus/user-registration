@@ -30,11 +30,6 @@
             <li class="nav-item">
             <a class="nav-link" href="Delete.php">Delete user</a>
             </li>
-
-            <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
-            </li>
-
         </ul>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
