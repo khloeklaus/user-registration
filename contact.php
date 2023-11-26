@@ -27,6 +27,43 @@
         <li>Airtel-0700978567</li>
         <li>MTN-0778888796</li>
     </ol>
+    <!-- This is for the footer page -->
+    <footer>
+          <div class="container">
+          <div class="row"style="border:green 2px solid">
+            <div class="col-lg-4"style="border:blue 2px solid">
+                <ol>
+                  <li><b>Explore</b></li>
+                  <li>Home</li>
+                  <li>Add user</li>
+                  <li>User list</li>
+                  <li>Phone</li>
+                  <li>Projects</li>
+                  <li>Sum</li>
+                </ol>
+
+              </div>
+              <div class="col-lg-4"style="border:blue 2px solid">
+                <ol>
+                  <li><b>Follow</b></li>
+                  <li>Intasgram</li>
+                  <li>Twitter</li>
+                  <li>Youtube</li>
+                </ol>
+              </div>
+              <div class="col-lg-4"style="border:blue 2px solid">
+                <ol>
+                  <li><b>Legal</b></li>
+                  <li>Terms</li>
+                  <li>Privacy</li>
+                </ol>
+
+              </div>
+
+            </div>
+
+          </div>
+</footer> 
 
     
 </body>

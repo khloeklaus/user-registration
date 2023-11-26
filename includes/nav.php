@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">user-registration</a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,15 +16,7 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="userlist.php">User list</a>
-            </li>
-
-            <li class="nav-item">
             <a class="nav-link" href="display_users.php">List of users</a>
-            </li>
-
-            <li class="nav-item">
-            <a class="nav-link" href="update.php">Update</a>
             </li>
 
             <li class="nav-item">
@@ -32,9 +24,9 @@
             </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="Projects.php">Projects</a>
+            <a class="nav-link" href="about.php">About us</a>
             </li>
-           
+
         </ul>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
