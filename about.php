@@ -43,8 +43,8 @@ Users can easily find and access this information .</p>
 <!-- This is for the footer page -->
 <footer>
           <div class="container">
-          <div class="row"style="border:green 2px solid">
-            <div class="col-lg-4"style="border:green 2px solid">
+          <div class="row">
+            <div class="col-lg-4">
                 <ol>
                   <li><b>Explore</b></li>
                   <li>Home</li>
@@ -56,7 +56,7 @@ Users can easily find and access this information .</p>
                 </ol>
 
               </div>
-              <div class="col-lg-4"style="border:green 2px solid">
+              <div class="col-lg-4">
                 <ol>
                   <li><b>Follow</b></li>
                   <li>Intasgram</li>
@@ -64,7 +64,7 @@ Users can easily find and access this information .</p>
                   <li>Youtube</li>
                 </ol>
               </div>
-              <div class="col-lg-4"style="border:green 2px solid">
+              <div class="col-lg-4">
                 <ol>
                   <li><b>Legal</b></li>
                   <li>Terms</li>

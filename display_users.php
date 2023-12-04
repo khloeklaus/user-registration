@@ -42,7 +42,9 @@
                             
                                 echo '<a href="includes/process_delete.php?id=' . $row['id'] . '">Delete</a>';
                             echo "</td>";
-                            
+                            echo "<td>";
+                            echo '<input type="file" name="avator"placeholder="Avator" class="form control">';
+                            "</td>";
                         echo "</tr>";
 
                     
