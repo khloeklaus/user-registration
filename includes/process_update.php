@@ -1,9 +1,11 @@
 <?php
+require_once "connect.php";
+
           if (isset($_GET['id']) && is_numeric($_GET['id'])) {
             $id = $_GET['id'];
 
             
-              require_once "includes/connect.php";
+              
              $query = "SELECT * FROM registration WHERE id = ?";
              $stmt = mysqli_prepare($connection,$query);
              mysqli_stmt_bind_param($stmt, "i", $id);
@@ -17,23 +19,28 @@
       ?>
       <?php
           if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            require_once "connect.php";
-             
-            $query = "UPDATE registration SET first_name = ?, second_name = ?, email = ?, addres = ?, telephone = ?";
+            
+            $query = "UPDATE registration SET first_name = ?, second_name = ?, email = ?, addres = ?, telephone = ? WHERE id =?";
 
             $stmt = mysqli_prepare($connection, $query);
 
-            mysqli_stmt_bind_param($stmt, "sssssi", $fName, $sName,$email,$adders,$tel,$id);
+            mysqli_stmt_bind_param($stmt, "sssssi", $fName, $sName,$email,$addres,$tel,$id);
 
-            $id = $_POST['id'];
             $fName = $_POST['first_name'];
             $sName= $_POST['second_name'];
             $email = $_POST['email'];
-            $adders = $_POST['addres'];
+            $addres = $_POST['addres'];
             $tel = $_POST['telephone'];
-            mysqli_stmt_execute($stmt);
+           
+            if(mysqli_stmt_execute($stmt)){
+              header("Location:../display_users.php");
+            }
+            else
+            {
+              die('failed' .mysqli_error($connection));
+            }
             //echo "Update was successful";
-            header("Location:../display_users.php");
+            
           
           }
       ?>

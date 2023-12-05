@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-        <a class"navbar-brand" href="#"id="log"><img src="image/register-icon-png-log.png"alt=""width="70px"></a>
+        <a class="navbar-brand" href="#"id="log"><img src="image/register-logo.png"alt="logo"width="70px"></a>
     
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

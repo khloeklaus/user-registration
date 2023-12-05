@@ -14,7 +14,7 @@
     $addres = $_POST["addres"];
     $tel = $_POST["telephone"];
     if (mysqli_stmt_execute($stmt)){
-        //header("Location: ../display data.php?success=true");
+        header("Location: ../display_users.php?success=true");
         echo "Data inserted successfully.";
     } else {
         die("Execute failed:" . mysqli_error($connection));

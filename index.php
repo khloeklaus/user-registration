@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <?php include "includes/head.html";?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xw9pe7KV8oHLRcdVu+QkOQ8fUfOe2MQ0dwH5v/I1jP5H25tZL/XFYdL+1cZQ2tjIBl5jMcZQ7clEx5/FM9v+mw==" crossorigin="anonymous" />
     <style>
 footer {
   text-align: center;
@@ -25,9 +26,8 @@ footer {
         <!-- This is the conent row -->
         <div class="row"style="bg-color:blue;">
           <div class="col-lg-3">
-            <p><i><u>I know that your wrong for me </u></i>so am gonna which we never meet on the<br>day i leave so i bought you down to your kneew<br>cause they that <mark><strong>misery loves company</strong></mark></p>
-            <p>And its your fault that i ruin everything and its not your fault that i can't be want you need</p>
-            <p>Cause hams <strike><mark><b>angels</b></mark></strike>like you can't fall downn to hell with me</p>
+          <img src="image/wlm pic 2.jpg" alt="GFG" width="300" height="300" class="d-block w-50" alt="...">
+             
           </div>
 
     
@@ -38,7 +38,7 @@ footer {
             <div class="carousel-inner bg-secondary">
               <div class="carousel-item active">
               <p class="text-bg-danger display-6">Slide 1</p>
-              <img src="image/wlm pic.jpg" alt="GFG" width="600" height="300" class="d-block w-50" alt="...">
+              <img src="image/user pic.png" alt="GFG" width="600" height="300" class="d-block w-50" alt="...">
               </div>
               <div class="carousel-item">
               <p class="text-bg-danger display-6">Slide 2</p>
@@ -63,11 +63,8 @@ footer {
 
           </div>
           <div class="col-lg-3">
+          <img src="image/right pic.webp" alt="GFG" width="300" height="300" class="d-block w-50" alt="...">
             <p>This is the <mark>fact about life</mark>, Some people will love you and others will hate you </p>
-            <p>Those that may love will do that because they know who you are truly</p>
-            <p>Those that hate do that because they don't know who you are in person<br><mark>perhaps</mark>you might have done something wrong to them without knowing</p>
-            
-
           </div>
         </div> 
         <!-- This is for the footer page -->
@@ -80,19 +77,17 @@ footer {
                   <li>Home</li>
                   <li>Add user</li>
                   <li>User list</li>
-                  <li>Phone</li>
-                  <li>Projects</li>
-                  <li>Sum</li>
+                  <li>Contact</li>
+                  
                 </ol>
 
               </div>
               <div class="col-lg-4">
-                <ol>
+              <ol>
                   <li><b>Follow</b></li>
                   <li>Intasgram</li>
                   <li>Twitter</li>
                   <li>Youtube</li>
-                  <li>fa_facebok</li>
                 </ol>
               </div>
               <div class="col-lg-4">

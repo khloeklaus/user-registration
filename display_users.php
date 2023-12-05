@@ -37,7 +37,7 @@
                             echo "<td>" . $row['email'] . "</td>";
                             echo "<td>" . $row['addres'] . "</td>";
                             echo "<td>" . $row['telephone'] . "</td>";
-                            echo "<td><img src = 'data:image/jpeg;basr64," . base64_encode($row['avatar'])"'width='50'height='50'alt='Avatar'></td>";
+                            
                             echo "<td>";
                                 echo '<a class="btn btn-success" href="update.php?id=' . $row['id'] . '">Update</a>';
                             
