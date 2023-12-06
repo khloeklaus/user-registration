@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tel-number</title>
     <?php include "includes/head.html";?>
+    <style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+</style>
 </head>
 <body>
     <div class="container">
@@ -27,44 +35,7 @@
         <li>Airtel-0700978567</li>
         <li>MTN-0778888796</li>
     </ol>
-    <!-- This is for the footer page -->
-    <footer>
-          <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-                <ol>
-                  <li><b>Explore</b></li>
-                  <li>Home</li>
-                  <li>Add user</li>
-                  <li>User list</li>
-                  <li>Phone</li>
-                  <li>Projects</li>
-                  <li>Sum</li>
-                </ol>
-
-              </div>
-              <div class="col-lg-4">
-                <ol>
-                  <li><b>Follow</b></li>
-                  <li>Intasgram</li>
-                  <li>Twitter</li>
-                  <li>Youtube</li>
-                </ol>
-              </div>
-              <div class="col-lg-4">
-                <ol>
-                  <li><b>Legal</b></li>
-                  <li>Terms</li>
-                  <li>Privacy</li>
-                </ol>
-
-              </div>
-
-            </div>
-
-          </div>
-</footer> 
-
+    <?php include "includes/footer.php";?>
     
 </body>
 </html>
