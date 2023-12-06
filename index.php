@@ -63,8 +63,8 @@ footer {
 
           </div>
           <div class="col-lg-3">
-          <img src="image/right pic.webp" alt="GFG" width="300" height="300" class="d-block w-50" alt="...">
-            <p>This is the <mark>fact about life</mark>, Some people will love you and others will hate you </p>
+          <img src="image/right pic.webp" alt="GFG" width="3000" height="400" class="d-block w-50" alt="...">
+            
           </div>
         </div> 
         <!-- This is for the footer page -->

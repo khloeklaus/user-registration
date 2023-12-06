@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php include "includes/head.html";?>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .wrapper{
+            width: 600px;
+            margin: 0 auto;
+        }
+        table tr td:last-child{
+            width: 120px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -24,7 +43,7 @@
             </thead>
         <tbody>  
             <?php
-                require_once "includes/connect.php";
+                include "includes/connect.php";
                 $query = "SELECT * FROM registration";
                 $result = mysqli_query($connection,$query);
 
@@ -39,9 +58,9 @@
                             echo "<td>" . $row['telephone'] . "</td>";
                             
                             echo "<td>";
-                                echo '<a class="btn btn-success" href="update.php?id=' . $row['id'] . '">Update</a>';
+                                echo '<a class="btn btn-success" href="update.php?id=' . $row['id'] . '"><span class="fa fa-pencil"></span></a>';
                             
-                                echo '<a href="includes/process_delete.php?id=' . $row['id'] . '">Delete</a>';
+                                echo '<a href="includes/process_delete.php?id=' . $row['id'] . '"><span class="fa fa-trash"></span></a>';
                             echo "</td>";
                             
                         echo "</tr>";
